@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 np.seterr(divide='ignore', invalid='ignore')
-images_path=r"C:\Users\VK186043\Desktop\mini_project\mini-project-1\dataset"
+images_path=r"./dataset/"
 
 images_matrix = np.empty(shape=(65536,520))
 images_matrix_centred = np.empty(shape=(65536,520))
